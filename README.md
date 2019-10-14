@@ -5,11 +5,11 @@ The answers of the exercises from "Algorithms (Fourth Edition)" by Robert Sedgew
 
 ## 目录
 
-### 第1章 [基础](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_1)
+### 第1章 [基础](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_1)
 
-[1.1 基础编程模型](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_1/ch1_1)
+[1.1 基础编程模型](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_1/ch1_1)
 
-[1.2 数据抽象](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_1/ch1_2)
+[1.2 数据抽象](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_1/ch1_2)
 
 [1.3 背包、队列和栈](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_1/ch1_3)
 
@@ -17,7 +17,7 @@ The answers of the exercises from "Algorithms (Fourth Edition)" by Robert Sedgew
 
 [1.5 案例研究：union-find算法](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_1/ch1_5)
 
-### 第2章 [排序](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_2)
+### 第2章 [排序](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_2)
 
 [2.1 初级排序算法](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_2/ch2_1)
 
@@ -29,7 +29,7 @@ The answers of the exercises from "Algorithms (Fourth Edition)" by Robert Sedgew
 
 [2.5 应用](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_2/ch2_5)
 
-### 第3章 [查找](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_3)
+### 第3章 [查找](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_3)
 
 [3.1 符号表](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_3/ch3_1)
 
@@ -38,4 +38,10 @@ The answers of the exercises from "Algorithms (Fourth Edition)" by Robert Sedgew
 [3.3 平衡二叉树]()
 
 [3.4 散列表](https://github.com/keichw/Algorithms-4th-Edition/tree/master/chapter_3/ch3_4)
+
+[3.5 应用](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_3/ch3_5)
+
+### 第4章 [图](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_4)
+
+[4.1 无向图](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_4/ch4_1)
 
