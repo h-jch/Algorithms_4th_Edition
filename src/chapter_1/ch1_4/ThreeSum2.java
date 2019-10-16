@@ -19,7 +19,10 @@ public class ThreeSum2 {
     }
 
     public static void main(String[] args) {
-        long[] a=In.readLongs(args[0]);
+        int[] b=In.readInts(args[0]);
+        long[] a=new long[b.length];
+        for(int i=0;i<a.length;i++)
+            a[i]=b[i];
         StdOut.println(count(a));
     }
     

@@ -37,7 +37,7 @@ public class GeneralizedLinkedQueue<Item> {
             return null;
         Node t=first;
         k=k-1;
-        while(k--)
+        while(k-->0)
             t=t.next;
         Item item=t.next.item;
         t.next=t.next.next;

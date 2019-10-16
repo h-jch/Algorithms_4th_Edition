@@ -24,7 +24,7 @@ public class ResizingArrayDeque<Item> implements Iterable<Item>{
 
     public void pushLeft(Item item){
         if(N==a.length)
-            resize(s*a.length);
+            resize(2*a.length);
         for(int i=N;i>0;i--)
             a[N]=a[N-1];
         a[0]=item;
@@ -56,22 +56,22 @@ public class ResizingArrayDeque<Item> implements Iterable<Item>{
         return item;
     }
 
-    public Iterator<Item> Iterator(){
+    public Iterator<Item> iterator(){
         return new ListIterator();
     }
 
     private class ListIterator implements Iterator<Item>{
-        private Node current=first;
+        private int current=0;
 
         public boolean hasNext(){
-            return current!=null;
+            return current!=a.length-1;
         }
 
         public void remove(){}
 
         public Item next(){
-            Item item=current.item;
-            current=current.next;
+            Item item=a[current];
+            current++;
             return item;
         }
     }

@@ -1,6 +1,7 @@
 package chapter_2.ch2_1;
 
 import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.Selection;
 
 /**
  * EX2_1_18

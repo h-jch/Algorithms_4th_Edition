@@ -13,7 +13,7 @@ public class FourSum {
         for(int i=0;i<N;i++)
             for(int j=i+1;j<N;j++)
                 for(int k=j+1;k<N;k++)
-                    if(Binary.rank(-(a[i]+a[j]+a[k]),a)>k)
+                    if(BinarySearch.rank(-(a[i]+a[j]+a[k]),a)>k)
                         cnt++;
         return cnt;
     }

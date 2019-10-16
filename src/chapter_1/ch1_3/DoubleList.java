@@ -55,7 +55,7 @@ public class DoubleList<Item> {
             first=last;
         else{
             oldlast.next=last;
-            last=prev=oldlast;
+            last.prev=oldlast;
         }
         N++;
     }
