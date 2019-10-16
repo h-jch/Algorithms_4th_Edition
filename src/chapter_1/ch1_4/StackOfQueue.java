@@ -14,7 +14,7 @@ public class StackOfQueue {
     public void push(int x){
         queue.enqueue(x);
         N++;
-        for(int i=0;i<N;i++)
+        for(int i=0;i<N-1;i++)
             queue.enqueue(queue.dequeue());
     }
 
