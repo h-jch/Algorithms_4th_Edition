@@ -12,7 +12,7 @@ public class EX1_2_15 {
         String input=in.readAll();
         String[] words=input.split("\\s+");
         int[] ints=new int[words.length];
-        for(int i=0;i<word.length;i++)
+        for(int i=0;i<words.length;i++)
             ints[i]=Integer.parseInt(words[i]);
         return ints;
     }

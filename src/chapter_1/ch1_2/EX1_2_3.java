@@ -1,10 +1,6 @@
 package chapter_1.ch1_2;
 
-import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.StdRandom;
-import edu.princeton.cs.algs4.Interval1D;
-import edu.princeton.cs.algs4.Interval2D;
+import edu.princeton.cs.algs4.*;
 
 /**
  * EX1_2_3

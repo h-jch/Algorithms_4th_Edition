@@ -21,7 +21,7 @@ public class Transaction {
         String[] fields=transaction.split("\\s+");      //匹配任意空白字符
         who=fields[0];
         when=new Date(fields[1]);
-        amount=Double.parseDouble(field[2]);
+        amount=Double.parseDouble(fields[2]);
     }
 
     public String getWho(){

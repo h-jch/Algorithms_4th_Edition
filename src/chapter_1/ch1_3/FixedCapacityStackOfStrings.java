@@ -16,7 +16,7 @@ public class FixedCapacityStackOfStrings {
     }
 
     public boolean isFull(){
-        return N==cap;
+        return N==a.length;
     }
 
     public int size(){

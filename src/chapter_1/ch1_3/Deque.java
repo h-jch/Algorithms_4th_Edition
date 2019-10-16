@@ -1,5 +1,7 @@
 package chapter_1.ch1_3;
 
+import org.w3c.dom.Node;
+
 import java.util.Iterator;
 
 /**
@@ -70,12 +72,12 @@ public class Deque<Item> implements Iterable<Item>{
         return item;
     }
 
-    public Iterator<Item> Iterator(){
+    public Iterator<Item> iterator(){
         return new ListIterator();
     }
 
     private class ListIterator implements Iterator<Item>{
-        private Node current=first;
+        private DoubleNode current=first;
 
         public boolean hasNext(){
             return current!=null;
