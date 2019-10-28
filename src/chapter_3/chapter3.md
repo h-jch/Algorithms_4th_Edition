@@ -222,13 +222,13 @@
 - (HashSTint.java, HashSTdouble.java)
 
 ### 3.5.5
-- 暂略
+- (STint.java, STdouble.java)
 
 ### 3.5.6
 - (HashSETint.java, HashSETdouble.java)
 
 ### 3.5.7
-- 暂略
+- (SETint.java, SETdouble.java)
 
 ### 3.5.8-3.5.35
 - 暂略

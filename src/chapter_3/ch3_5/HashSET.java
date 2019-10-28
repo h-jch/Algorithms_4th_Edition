@@ -1,16 +1,16 @@
 package chapter_3.ch3_5;
 
-import java.util.HashSet;
 import java.util.Iterator;
+import edu.princeton.cs.algs4.LinearProbingHashST;
 
 /**
  * HashSET
  */
 public class HashSET<Key> implements Iterable<Key>{
-    private HashSet<Key> set;
+    private LinearProbingHashST<Key,Character> set;
 
     public HashSET(){
-        set=new HashSet<Key>();
+        set=new LinearProbingHashST<>();
     }
     
     public boolean isEmpty(){
@@ -22,11 +22,11 @@ public class HashSET<Key> implements Iterable<Key>{
     }
     
     public void add(Key key){
-        set.add(key);
+        set.put(key,null);
     }
 
     public void delete(Key key){
-        set.remove(key);
+        set.delete(key);
     }
 
     public int size(){
@@ -35,7 +35,7 @@ public class HashSET<Key> implements Iterable<Key>{
 
     @Override
     public Iterator<Key> iterator(){
-        return set.iterator();
+        return (Iterator<Key>) set.keys();
     }
 
     @Override
