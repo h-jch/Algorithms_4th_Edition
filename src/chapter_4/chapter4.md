@@ -1,3 +1,6 @@
+
+
+
 # Chapter 4 图
 
 ## ch4_1 无向图
@@ -38,4 +41,31 @@
 - (Search.java)
 
 ### 4.1.9
-- 
+- (DepthFirstPaths.java)
+
+### 4.1.10
+- 略
+
+### 4.1.11
+- (BreadthFirstPaths.java)
+
+### 4.1.12
+- 不能，v和w都不是根节点的话，广度优先搜索得到的树是不能计算v和w之间的距离的
+
+### 4.1.13
+- (BreadthFirstPaths.java)
+
+### 4.1.14
+- 可以的，用stack代替queue实现广度优先搜索，还可以得到最短路径
+
+### 4.1.15
+- (Graph.java)
+
+### 4.1.16
+- (GraphProperties.java)
+
+### 4.1.17
+- (GraphProperties.java)
+
+### 4.1.18
+- (CC.java)

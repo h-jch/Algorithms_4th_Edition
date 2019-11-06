@@ -2,6 +2,7 @@ package chapter_4.ch4_1;
 
 import chapter_1.ch1_3.Bag;
 import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 /**
@@ -27,6 +28,25 @@ public class Graph {
             int v=in.readInt();
             int w=in.readInt();
             addEdge(v,w);
+        }
+    }
+
+    /**
+     * EX4.1.15
+     */
+    public Graph(StdIn in){
+        String s=in.readLine();
+        String[] word=s.split("\\s+");
+        this.V=Integer.parseInt(word[0]);
+        this.E=Integer.parseInt(word[2]);
+        adj=(Bag<Integer>[]) new Bag[V];
+        for(int v=0;v<V;v++)
+            adj[v]=new Bag<>();
+        for(int i=0;i<V;i++){
+            String n=in.readLine();
+            String[] words=n.split("\\s+");
+            for(int j=1;j<words.length;j++)
+                adj[i].add(Integer.parseInt(words[j]));
         }
     }
 
