@@ -1,15 +1,13 @@
 package chapter_3.ch3_5;
 
 import edu.princeton.cs.algs4.RedBlackBST;
+
 import java.util.Iterator;
 
-/**
- * SET
- */
-public class SET<Key extends Comparable<Key>> implements Iterable<Key>{
-    private RedBlackBST<Key, Character> set;
+public class SETdouble implements Iterable<Double>{
+    private RedBlackBST<Double,Character> set;
 
-    public SET(){
+    public SETdouble(){
         set=new RedBlackBST<>();
     }
 
@@ -17,28 +15,26 @@ public class SET<Key extends Comparable<Key>> implements Iterable<Key>{
         return set.isEmpty();
     }
 
-    public boolean contains(Key key){
+    public boolean contains(double key){
         return set.contains(key);
     }
 
-    public void add(Key key){
+    public void add(double key){
         set.put(key,null);
     }
 
-    public void delete(Key key){
+    public void delete(double key){
         set.delete(key);
     }
-    
+
     public int size(){
         return set.size();
     }
 
-    @Override
-    public Iterator<Key> iterator(){
-        return (Iterator<Key>) set.keys();
+    public Iterator<Double> iterator(){
+        return (Iterator<Double>) set.keys();
     }
 
-    @Override
     public String toString(){
         return set.toString();
     }
