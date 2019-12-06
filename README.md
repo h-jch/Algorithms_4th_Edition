@@ -45,3 +45,17 @@ The answers of the exercises from "Algorithms (Fourth Edition)" by Robert Sedgew
 
 [4.1 无向图](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_4/ch4_1)
 
+[4.2 有向图](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_4/ch4_2)
+
+[4.3 最小生成树](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_4/ch4_3)
+
+[4.4 最短路径](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_4/ch4_4)
+
+### 第5章 [字符串](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_5)
+
+[5.1 字符串排序](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_5/ch5_1)
+
+[5.2 单词查找树](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_5/ch5_2)
+
+[5.3 子字符串查找](https://github.com/keichw/Algorithms_4th_Edition/tree/master/src/chapter_5/ch5_3)
+
